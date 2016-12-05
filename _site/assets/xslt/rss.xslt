@@ -1,9 +1,14 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-	<meta charset="utf-8">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
+<xsl:output method="html" encoding="utf-8" />
+<xsl:template match="/rss">
+	<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html &gt;</xsl:text>
+	<html>
+	<head>
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Blog of Feeling Responsive</title>
+	<title>RSS Feed (Styled)</title>
 
     <link rel="stylesheet" type="text/css" href="victoriaheron.com/assets/css/styles_feeling_responsive.css">
 
@@ -26,19 +31,19 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="This is the Feeling Responsive Blog Template.">
+	<meta name="description" content="This site is an introduction and holding space for Victoria Heron and her practice.">
   	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
 	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
 	<link rel="author" href="https://plus.google.com/u/0/118311555303973066167">
 	
-	<meta name="robots" content="noindex">
-	<link rel="canonical" href="victoriaheron.com/blog/">
+	
+	<link rel="canonical" href="victoriaheron.com/assets/xslt/rss.xslt">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Blog of Feeling Responsive">
-	<meta property="og:description" content="This is the Feeling Responsive Blog Template.">
-	<meta property="og:url" content="victoriaheron.com/blog/">
+	<meta property="og:title" content="RSS Feed (Styled)">
+	<meta property="og:description" content="This site is an introduction and holding space for Victoria Heron and her practice.">
+	<meta property="og:url" content="victoriaheron.com/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Victoria Heron Yoga">
@@ -51,8 +56,8 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="victoriaheron">
 	<meta name="twitter:creator" content="victoriaheron">
-	<meta name="twitter:title" content="Blog of Feeling Responsive">
-	<meta name="twitter:description" content="This is the Feeling Responsive Blog Template.">
+	<meta name="twitter:title" content="RSS Feed (Styled)">
+	<meta name="twitter:description" content="This site is an introduction and holding space for Victoria Heron and her practice.">
 	
 	
 
@@ -90,10 +95,11 @@
 
 	
 
-</head>
-<body id="top-of-page" class="">
-	
-	<div id="navigation" class="sticky">
+		]]></xsl:text>
+	</head>
+	<body id="top-of-page">
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		<div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
@@ -190,7 +196,7 @@
             
 
               <li class="divider"></li>
-              <li class="has-dropdown active">
+              <li class="has-dropdown">
                 <a href="victoriaheron.com/blog/">Blog</a>
 
                   <ul class="dropdown">
@@ -276,17 +282,15 @@
   </nav>
 </div><!-- /#navigation -->
 
-	
+		
 
-	
-
-<div id="masthead">
+<div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-<!-- 			<a id="logo" href="" title="Victoria Heron Yoga – ">
+			<a id="logo" href="" title="Victoria Heron Yoga – ">
 				<img src="victoriaheron.com/assets/img/" alt="Victoria Heron Yoga – ">
 			</a>
- -->		</div><!-- /.small-12.columns -->
+		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
@@ -297,126 +301,57 @@
 
 
 
-
-
-	<div class="row">
-	<div class="medium-8 columns t30">
 		
 
 
-
-  <div class="row">
-    <div class="small-12 columns b60">
-      <p class="subheadline"><span class="subheader">classes</span> – Templates</p>
-      <h2><a href="/classes/private-classes/">Private Classes</a></h2>
-      <p>
-        <a href="/classes/private-classes/" title="Private Classes"><img src="https://victoriaheron.github.io/assets/images/gallery-example-3-thumb.jpg" class="alignleft" width="150" height="150" alt="Blog of Feeling Responsive"></a>
-
-        I teach some classes for business at their location.
-
-        <a href="/classes/private-classes/" title="Read Private Classes"><strong>Read More&nbsp;›</strong></a>
-      </p>
-    </div><!-- /.small-12.columns -->
-  </div><!-- /.row -->
-
-  <div class="row">
-    <div class="small-12 columns b60">
-      <p class="subheadline"><span class="subheader">classes</span> – Templates</p>
-      <h2><a href="/classes/corporate-classes/">Corporate Classes</a></h2>
-      <p>
-        <a href="/classes/corporate-classes/" title="Corporate Classes"><img src="https://victoriaheron.github.io/assets/images/gallery-example-3-thumb.jpg" class="alignleft" width="150" height="150" alt="Blog of Feeling Responsive"></a>
-
-        I teach some classes for business at their location.
-
-        <a href="/classes/corporate-classes/" title="Read Corporate Classes"><strong>Read More&nbsp;›</strong></a>
-      </p>
-    </div><!-- /.small-12.columns -->
-  </div><!-- /.row -->
-
-  <div class="row">
-    <div class="small-12 columns b60">
-      <p class="subheadline"><span class="subheader">design</span> – Video & Music Player</p>
-      <h2><a href="/design/mediaelement_js/">Play Audio & Video with media&shy;element.js</a></h2>
-      <p>
-        <a href="/design/mediaelement_js/" title="Play Audio & Video with media&shy;element.js"><img src="https://victoriaheron.github.io/assets/images/mediaplayer_js-thumb.jpg" class="alignleft" width="150" height="150" alt="Blog of Feeling Responsive"></a>
-
-        Do you like music? Or are you a podcaster? Do you want to stream your videos in a nice player? Than you likely will like the integration of mediaelement.js. It enables you to play music and stream video in a consistent player that looks in each browser delicious. It even works in IE6-8.
-
-        <a href="/design/mediaelement_js/" title="Read Play Audio & Video with media&shy;element.js"><strong>Read More&nbsp;›</strong></a>
-      </p>
-    </div><!-- /.small-12.columns -->
-  </div><!-- /.row -->
-
-  <div class="row">
-    <div class="small-12 columns b60">
-      <p class="subheadline"><span class="subheader">design &middot; typography</span> – Reading Experience</p>
-      <h2><a href="/design/typography/typography/">Wonderful Typography</a></h2>
-      <p>
-        <a href="/design/typography/typography/" title="Wonderful Typography"><img src="https://victoriaheron.github.io/assets/images/homepage_typography-thumb.jpg" class="alignleft" width="150" height="150" alt="Blog of Feeling Responsive"></a>
-
-        Feeling Responsive uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console or Monaco.
-
-        <a href="/design/typography/typography/" title="Read Wonderful Typography"><strong>Read More&nbsp;›</strong></a>
-      </p>
-    </div><!-- /.small-12.columns -->
-  </div><!-- /.row -->
-
-  <div class="row">
-    <div class="small-12 columns b60">
-      <p class="subheadline"><span class="subheader">design</span> – Discussion</p>
-      <h2><a href="/design/comments/">Now with Comments!</a></h2>
-      <p>
-        <a href="/design/comments/" title="Now with Comments!"><img src="https://victoriaheron.github.io/assets/images/typewriter-thumb.jpg" class="alignleft" width="150" height="150" alt="Blog of Feeling Responsive"></a>
-
-        For a blog you need comments. Like all those other jekyll themes we baked in Disqus. It&#39;s easy to set, it works and makes a static jekyll blog more dynamic.
-
-        <a href="/design/comments/" title="Read Now with Comments!"><strong>Read More&nbsp;›</strong></a>
-      </p>
-    </div><!-- /.small-12.columns -->
-  </div><!-- /.row -->
+<div class="alert-box warning text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">RSS feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
+</div>
 
 
 
-<nav id="pagination">
-    
+		]]></xsl:text>
+		<header class="t30 row">
+	<p class="subheadline"><xsl:value-of select="channel/description" disable-output-escaping="yes" /></p>
+	<h1>
+		<xsl:element name="a">
+			<xsl:attribute name="href">
+				<xsl:value-of select="channel/link" />
+			</xsl:attribute>
+			<xsl:value-of select="channel/title" disable-output-escaping="yes" />
+		</xsl:element>
+	</h1>
+</header>
+<ul class="accordion row" data-accordion="">
+	<xsl:for-each select="channel/item">
+		<li class="accordion-navigation">
+			<xsl:variable name="slug-id">
+				<xsl:call-template name="slugify">
+					<xsl:with-param name="text" select="guid" />
+				</xsl:call-template>
+			</xsl:variable>
+			<xsl:element name="a">
+				<xsl:attribute name="href"><xsl:value-of select="concat('#', $slug-id)"/></xsl:attribute>
+				<xsl:value-of select="title"/>
+				<br/>
+				<small><xsl:value-of select="pubDate"/></small>
+			</xsl:element>
+			<xsl:element name="div">
+				<xsl:attribute name="id"><xsl:value-of select="$slug-id"/></xsl:attribute>
+				<xsl:attribute name="class">content</xsl:attribute>
+				<h1>
+					<xsl:element name="a">
+						<xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute>
+						<xsl:value-of select="title"/>
+					</xsl:element>
+				</h1>
+				<xsl:value-of select="description" disable-output-escaping="yes" />
+			</xsl:element>
+		</li>
+	</xsl:for-each>
+</ul>
 
-    <a class="radius button small" href="/blog/archive/" title="Blog Archive">Blog Archive</a>
-
-    
-    <a rel="next" class="radius button small" href="/blog/page2/" title="Next Posts">Next &raquo;</a>
-    
-  </nav>
-
-
-	</div><!-- /.medium-7.columns -->
-
-
-	<div class="medium-4 columns t30">
-		<aside>
-	<div class="panel radius">
-		<h3>Sidebar</h3>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
-	</div>
-
-  <img class="b30" src="http://dummyimage.com/303x16:9/df4949/e27b3f.png&amp;text=Ugly+Ad+Space" alt="">
-
-
-	<div class="border-dotted radius b30">
-		<img src="http://placekitten.com/271/270" alt="uh, Placekitten">
-		<p class="text-left">
-			This is an advertisment with a crazy cat! <a href="http://placekitten.com/">More cats, please!</a>
-		</p>
-	</div>
-</aside>
-	</div><!-- /.medium-5.columns -->
-</div><!-- /.row -->
-
-	
-	    <div id="up-to-top" class="row">
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		    <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
       </div><!-- /.small-12.columns -->
@@ -554,19 +489,12 @@
       </div><!-- /#subfooter -->
     </footer>
 
-	
-
-	
+		
 
 
 <script src="victoriaheron.com/assets/js/javascript.min.js"></script>
 
 
-
-<script>
-    $("#masthead").backstretch("https://victoriaheron.github.io/assets/images/header-bus.jpg", {fade: 700});
-    $("#masthead-with-text").backstretch("https://victoriaheron.github.io/assets/images/header-bus.jpg", {fade: 700});
-</script>
 
 
 
@@ -591,6 +519,18 @@
 
 
 
-</body>
-</html>
-
+		]]></xsl:text>
+	</body>
+	</html>
+</xsl:template>
+<xsl:template name="slugify">
+	<xsl:param name="text" select="''" />
+	<xsl:variable name="dodgyChars" select="' ,.#_-!?*:;=+|&amp;/\\'" />
+	<xsl:variable name="replacementChar" select="'-----------------'" />
+	<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
+	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
+	<xsl:variable name="lowercased"><xsl:value-of select="translate( $text, $uppercase, $lowercase )" /></xsl:variable>
+	<xsl:variable name="escaped"><xsl:value-of select="translate( $lowercased, $dodgyChars, $replacementChar )" /></xsl:variable>
+	<xsl:value-of select="$escaped" />
+</xsl:template>
+</xsl:stylesheet>
