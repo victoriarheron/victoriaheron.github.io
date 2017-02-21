@@ -17,7 +17,7 @@ title: 'Victoria Heron Yoga'
 description: 'This site is an introduction and holding space for Victoria Heron and her practice.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://jbheron.com/">Jess Heron</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+credits: '<p>Created with &hearts; by Victoria Heron and <a href="http://jbheron.com/">Jess Heron</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
@@ -26,7 +26,7 @@ author: vheron
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 # url: 'https://victoriaheron.com'
-baseurl: 'victoriaheron.com'
+# baseurl: 'victoriaheron.com'
 
 
 # This is for the editing function in _/includes/improve_content
@@ -112,7 +112,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: jbheron     # Default author for pages
+      author: vheron     # Default author for pages
   -
     scope:
       path: ''
@@ -121,7 +121,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: jbheron     # Default author for posts
+      author: vheron     # Default author for posts
 
 
 
@@ -273,7 +273,7 @@ google_analytics_tracking_id: UA-60112281-1
 
 asciidoctor-enabled: false
 asciidoctor:
-  description: testtewtetrue
+  description: testtest
   attributes:
     source-highlighter: coderay
     coderay-css: style
