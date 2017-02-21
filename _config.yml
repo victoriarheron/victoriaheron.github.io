@@ -39,8 +39,14 @@ improve_content: https://github.com/victoriaheron/home/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'http://victoriaheron.github.io/images/'
+urlimg: 'http://victoriaheron.com/images/'
 
+#     $("#masthead").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
+#     $("#masthead-with-text").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
+
+# url:    'http://localhost:4000'
+# baseurl:  ''
+# urlimg:   'http://localhost:4000/images/'
 
 # Logo size is 600x80 pixels
 # logo: "logo.png"
