@@ -1,0 +1,34 @@
+# This config-file is only needed for development. Instead of changing the url
+# everytime you work locally on the project, you start both config-files, overwriting
+# the first one with the development variables needed.
+#
+# Start development with: `$ jekyll serve --config _config.yml,_config_dev.yml --incremental`
+
+# To modify production, run `$ jekyll build` and copy file contents of source repo to the 'victoriaheron.github.io' repo. Contents of destination should represent a similar website to what the contents of the source repo will build in production by Github:
+
+source:      '/Users/jheron/workspace/victoriaheron.github.io' # While Github ignores this value, we set it to this repo for clarity
+destination: '/Users/jheron/workspace/victoriaheron.github_site' # Keeps _site out of source control for development
+
+# production build repository: '/Users/jheron/workspace/victoriaheron.github.io' 
+# production build branch: 'master'
+
+url: 		'http://localhost:4000'
+baseurl: 	''
+urlimg: 	'http://localhost:4000/images/'
+
+# See › https://github.com/jekyll/jekyll-gist#disabling-noscript-support
+gist:
+  noscript: false
+
+sass:
+  # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: :expanded
+  line_numbers: true
+  # trace_selectors: true
+  # debug_info: true
+  # FUTURE https://github.com/jekyll/jekyll-sass-converter/issues/12
+  sourcemap: true
+
+# Disable when not in production
+google_analytics_tracking_id: false
+

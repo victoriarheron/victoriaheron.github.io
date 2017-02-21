@@ -1,0 +1,49 @@
+- name: GitHub
+  url: http://github.com/victoriarheron
+  class: icon-github
+  title: Code base
+
+- name: YouTube
+  url: https://www.youtube.com/channel/UCoyRXUvejnoRBPLaa4V4B4A
+  class: icon-youtube
+  title: "Yoga Video"
+
+- name: Facebook
+  url: https://www.facebook.com/victoriaheronyoga/
+  class: icon-facebook
+  title: "Facebook"
+
+- name: Instagram
+  url: http://instagram.com/victoriaheronyoga
+  class: icon-instagram
+  title: "Instagram"
+
+# - name: Twitter
+#   url: http://twitter.com/phlow
+#   class: icon-twitter
+#   title: "Immer das Neuste von Phlow gibt es auf Twitter"
+
+# - name: Mixcloud
+#   url: http://www.mixcloud.com/phlow/
+#   class: icon-cloud
+#   title: "Mixe, was sonst?"
+
+# - name: Phlow YouTube Google+
+#   url: https://plus.google.com/u/0/+Phlow
+#   class: icon-googleplus
+#   title: "YouTube Google+"
+
+# - name: Soundcloud
+#   url: http://soundcloud.com/
+#   class: icon-soundcloud
+#   title: ""
+
+# - name: Pinterest
+#   url: http://www.pinterest.com/
+#   class: icon-pinterest
+#   title: ""
+
+# - name: Xing
+#   url: https://www.xing.com/profile/
+#   class: icon-xing
+#   title: Xing Profil

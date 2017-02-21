@@ -1,0 +1,35 @@
+- title: Victoria Heron
+  url: "/"
+  side: left
+
+- title: About
+  url: "/about-me/"
+  side: right
+
+- title: "Classes"
+  url: "/classes/"
+  side: right
+  dropdown:
+  - title: "Corporate Classes"
+    url: "/classes/corporate-classes/"
+  - title: "Private Classes"
+    url: "/classes/private-classes/"
+
+- title: Media
+  url: "/media/"
+  side: right
+  dropdown:
+  - title: "Media Archive"
+    url: "/media/archive/"
+
+- title: Blog
+  url: "/blog/"
+  side: right
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
+
