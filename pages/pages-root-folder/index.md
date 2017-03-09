@@ -43,8 +43,11 @@ permalink: /index.html
 # this page as active in the topbar navigation
 #
 homepage: true
+# skip_boilerplate: true
+# skip_footer_scripts: true
+skip_footer_components: true
 ---
-<h2>MOAR</h2>
+<h2></h2>
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
