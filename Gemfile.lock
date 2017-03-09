@@ -203,7 +203,7 @@ DEPENDENCIES
   asciidoctor (~> 1.5.4)
   coderay (= 1.1.1)
   github-pages (= 127)
-  jekyll
+  jekyll (~> 3.4.1)
   jekyll-asciidoc
   jekyll-gist
   jekyll-paginate
