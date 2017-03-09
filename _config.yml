@@ -39,7 +39,7 @@ improve_content: https://github.com/victoriaheron/home/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'http://victoriaheron.com/assets/img/'
+urlimg: 'http://www.victoriaheron.com/assets/img/'
 
 #     $("#masthead").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
 #     $("#masthead-with-text").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
