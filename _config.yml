@@ -25,7 +25,7 @@ author: vheron
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://victoriaheron.github.io'
+url: 'https://victoriaheron.com'
 baseurl: ''
 
 
@@ -39,7 +39,7 @@ improve_content: https://github.com/victoriaheron/home/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'http://victoriaheron.github.io/assets/img/'
+urlimg: 'http://victoriaheron.com/assets/img/'
 
 #     $("#masthead").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
 #     $("#masthead-with-text").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
