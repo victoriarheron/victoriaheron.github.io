@@ -5,7 +5,7 @@ meta_title: "About Victoria Heron"
 subheadline: "My interests, passion and approach"
 teaser: ""
 header:
-  image_fullwidth: dancer-lg.jpg
+  image_fullwidth: bird-of-paradise1.jpg
 permalink: "/about-me/"
 ---
 
