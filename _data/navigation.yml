@@ -6,22 +6,24 @@
   url: "/about-me/"
   side: right
 
-- title: "Classes"
+- title: "Practice with Victoria"
   url: "/classes/"
   side: right
   dropdown:
-  - title: "Corporate Classes"
-    url: "/classes/corporate-classes/"
   - title: "Private Classes"
     url: "/classes/private-classes/"
+  - title: "Corporate Classes"
+    url: "/classes/corporate-classes/"
 
 - title: Media
   url: "/media/"
   side: right
   dropdown:
-  - title: "Media Archive"
+  - title: "Video"
     url: "/media/archive/"
-
+  - title: "Gallery"
+    url: "/media/gallery/"
+    
 - title: Blog
   url: "/blog/"
   side: right

@@ -23,9 +23,9 @@ To start a development server run the following:
 
 /classes => pages/classes.md
 
-/classes/corporate-classes => _posts/classes/2016-10-02-corporate-classes.md
+/classes/private-classes => _posts/classes/2016-10-02-private-classes.md
 
-/classes/private-classes => _posts/classes/2016-10-02-corporate-classes.md
+/classes/corporate-classes => _posts/classes/2016-10-02-corporate-classes.md
 
 /media - 404
 /media/archive - 404

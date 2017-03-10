@@ -14,20 +14,7 @@ image:
     title: gallery-example-3.jpg
     caption_url: http://unsplash.com
 ---
-*Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
-<!--more-->
+Private lessons are a fantastic opportunity to receive individualized instruction tailored to your body’s unique needs. They are great primer for beginners who are wanting to correctly learn the poses commonly practiced in group classes, and for intermediate and advanced students who are wanting more who want to begin learning postures such as arm balances and inversions that are often not taught in depth in group classes. Private lessons can also be an important first step in moving towards establishing a home practice. 
 
-~~~
-show_meta: true
-~~~
+Private, semi-private and private group lessons can be scheduled 1-2hrs in length and range in cost from $60-150. Please contact Victoria for more information. 
 
-If you don't want to show metadata, it's simple again:
-
-~~~
-show_meta: false
-~~~
-
-
-## Other Post Formats
-{: .t60 }
-{% include list-posts tag='post format' %}
