@@ -10,8 +10,8 @@ tags:
 categories:
     - classes
 image:
-    thumb: seated_cave_yogini_edited.png
-    title: seated_cave_yogini_edited.png
+    thumb: whoa.jpg
+    title: whoa.jpg
     caption_url:
 ---
 Private lessons are a fantastic opportunity to receive individualized instruction tailored to your body’s unique needs. They are great primer for beginners who are wanting to correctly learn the poses commonly practiced in group classes, and for intermediate and advanced students who are wanting more who want to begin learning postures such as arm balances and inversions that are often not taught in depth in group classes. Private lessons can also be an important first step in moving towards establishing a home practice.
