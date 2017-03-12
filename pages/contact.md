@@ -1,12 +1,17 @@
 ---
 layout: page
-title: "Contact"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+title: "Get in touch!"
+meta_title: "Contact Form"
+subheadline: "I respond promptly to messages sent by this form."
+teaser: "How can I be of service?"
 permalink: "/contact/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
 
 
- [1]: http://www.wufoo.com/
+<div id="wufoo-zsqllfa1gihs8c">
+Fill out my <a href="https://victoriaheron.wufoo.com/forms/zsqllfa1gihs8c">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+
+
+
