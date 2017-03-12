@@ -17,7 +17,7 @@ title: 'Victoria Heron Yoga'
 description: 'This site is a holding space for Victoria Heron and her yoga teaching.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by Victoria Heron and <a href="http://jbheron.com/">Jess Heron</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+credits: '<p>Created with &hearts; by Victoria and Jess Heron with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
@@ -49,7 +49,7 @@ urlimg: 'http://www.victoriaheron.com/assets/img/'
 # urlimg:   'http://localhost:4000/images/'
 
 # Logo size is 600x80 pixels
-# logo: "logo.png"
+logo: "seated_logo_small.png"
 
 # Gems
 gems:
