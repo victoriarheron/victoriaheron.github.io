@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: dancer-cropped.jpg
+  image_fullwidth: P1011565.jpg
 
 #widget1:
 #  title: "Blog & Portfolio"

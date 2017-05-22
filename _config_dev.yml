@@ -7,8 +7,13 @@
 
 # To modify production, run `$ jekyll build` and copy file contents of source repo to the 'victoriaheron.github.io' repo. Contents of destination should represent a similar website to what the contents of the source repo will build in production by Github:
 
-source:      '/Users/jessheiner/workspace/victoriaheron.github.io' # While Github ignores this value, we set it to this repo for clarity
-destination: '/Users/jessheiner/workspace/victoriaheron.github_site' # Keeps _site out of source control for development
+# For home machine
+# source:      '/Users/jessheiner/workspace/victoriaheron.github.io' # While Github ignores this value, we set it to this repo for clarity
+# destination: '/Users/jessheiner/workspace/victoriaheron.github_site' # Keeps _site out of source control for development
+
+# For work machine
+source:      '/Users/heron/workspace/jbh/victoriaheron.github.io' # While Github ignores this value, we set it to this repo for clarity
+destination: '/Users/heron/workspace/jbh/victoriaheron.github_site' # Keeps _site out of source control for development
 
 # production build repository: '/Users/jheron/workspace/victoriaheron.github.io'
 # production build branch: 'master'
