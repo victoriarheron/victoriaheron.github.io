@@ -20,9 +20,9 @@
   side: right
   dropdown:
   - title: "Video"
-    url: "/media/video/"
+    url: "/media/video.md"
   - title: "Gallery"
-    url: "/media/gallery/"
+    url: "/media/gallery.md"
     
 - title: Blog
   url: "/blog/"

@@ -10,7 +10,7 @@ categories:
   - 
 tags:
   - video
-iframe: "<iframe width='970' height='546' src='//www.youtube.com/embed/WoHxoz_0ykI' frameborder='0' allowfullscreen></iframe>"
+iframe: "<iframe width='970' height='546' src='https://www.youtube.com/watch?v=5LVCXPWUWkU' frameborder='0' allowfullscreen></iframe>"
 video:
     embedURL: ""
     contentURL: "https://www.youtube.com/watch?v=5LVCXPWUWkU"
