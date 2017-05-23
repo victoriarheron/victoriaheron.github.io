@@ -6,7 +6,7 @@ subheadline: "My interests, passion and approach"
 teaser: ""
 header:
   image_fullwidth: P1011427_2.jpg
-permalink: "/about-me/"
+permalink: "/about/"
 ---
 
 I began practicing yoga, mindfulness and meditation at the age of 18 while earning my bachelor’s degree in psychology from Vassar College.  I completed her yoga teacher training at Yoga Tree in San Francisco under the expert instruction of many of California’s most renowned teachers. I have also studied yoga with Rod Stryker, Annie Carpenter, Bryan Kest and am especially grateful for the instruction, encouragement and bhakti inspiration I have received from Daniel Stewart, Lauren Peterson, and Noelle Beaugureau. 

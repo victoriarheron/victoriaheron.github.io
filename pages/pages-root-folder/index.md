@@ -34,7 +34,7 @@ header:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: /about-me
+  url: /about
   text: Learn more about Victoria ›
   style: alert
 permalink: /index.html

@@ -19,7 +19,7 @@ To start a development server run the following:
 / (root) => _layouts/frontpage.html
 	image 
 	intro text from  
-/about => pages/about-me.md
+/about => pages/about.md
 
 /classes => pages/classes.md
 
