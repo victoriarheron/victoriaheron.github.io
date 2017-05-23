@@ -3,9 +3,9 @@ layout: video
 #
 # Content
 #
-subheadline: "subheadline"
-title: "title"
-teaser: "teaser"
+subheadline: ""
+title: ""
+teaser: ""
 categories:
   - 
 tags:
@@ -13,6 +13,6 @@ tags:
 iframe: "<iframe width='970' height='546' src='//www.youtube.com/embed/WoHxoz_0ykI' frameborder='0' allowfullscreen></iframe>"
 video:
     embedURL: ""
-    contentURL: "https://www.youtube.com/watch?v=5LVCXPWUWkU"
+    contentURL: ""
     thumbnailUrl: ""
 ---

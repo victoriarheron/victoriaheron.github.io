@@ -20,7 +20,7 @@
   side: right
   dropdown:
   - title: "Video"
-    url: "/media/archive/"
+    url: "/media/video/"
   - title: "Gallery"
     url: "/media/gallery/"
     
