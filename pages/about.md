@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "about"
 meta_title: "About Victoria Heron"
 subheadline: "My interests, passion and approach"
 teaser: ""
