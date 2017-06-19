@@ -24,12 +24,12 @@
   - title: "Gallery"
     url: "/media/gallery/"
     
-- title: Blog
-  url: "/blog/"
-  side: right
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+# - title: Blog
+#   url: "/blog/"
+#   side: right
+#   dropdown:
+#   - title: "Blog Archive"
+#     url: "/blog/archive/"
 
 - title: "Contact"
   url: "/contact/"
