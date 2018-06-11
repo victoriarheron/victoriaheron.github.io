@@ -11,7 +11,7 @@ permalink: "/classes/"
 ---
 
 <h5>
-My schedule changes often but I always try to make room in my schedule for private lessons:
+My <a href="{{site.url}}/classes/schedule">schedule</a> changes often but I always try to make room for private lessons:
 </h5>
 <ul>
     {% for post in site.categories.classes %}

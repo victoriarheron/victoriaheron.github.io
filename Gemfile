@@ -6,7 +6,7 @@ require 'open-uri'
 versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
 gem 'github-pages', versions['github-pages']
-gem 'jekyll', '~> 3.4.1'
+gem 'jekyll'
 
 group :jekyll_plugins do
   gem 'jekyll-gist'
@@ -14,5 +14,5 @@ group :jekyll_plugins do
   gem "jekyll-asciidoc"
 end
 
-gem 'asciidoctor', '~> 1.5.4'
-gem 'coderay', '1.1.1'
+gem 'asciidoctor'
+gem 'coderay'

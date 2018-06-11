@@ -7,18 +7,17 @@ Config details are at jekyll_victoriaheron.com/_config_dev.yml:
 
 ### Using two config files for development
 Th `_config_dev.yml` file is only needed for development. Instead of changing the url
-everytime you work locally on the project, you start the local server with both config-files, overwriting
-the first one with the development variables needed.
+everytime you work locally on the project, you start the local server with both config-files, overwriting the first one with the development variables needed.
 
-To start a development server run the following: 
+To start a development server run the following:
 `$ jekyll serve --config _config.yml,_config_dev.yml --incremental`
 
 ## Publishing to repo mapping:
 
 ```
 / (root) => _layouts/frontpage.html
-	image 
-	intro text from  
+	image
+	intro text from
 /about => pages/about.md
 
 /classes => pages/classes.md
@@ -36,5 +35,5 @@ To start a development server run the following:
 ```
 
 ## Notes:
-Need to increase the height value of the masthead element in 
+Need to increase the height value of the masthead element in
 _07_layout.scss and find backstretch to modify it.
