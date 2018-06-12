@@ -2,8 +2,8 @@
 
 These notes describe how to find your way around the implementation of the feeling-responsive Jekyll theme for Victoria's yoga site. Combined with the Google doc shared by Victoria, you should have enough details to maintain this site.
 
-## Configuration
-Config details are at jekyll_victoriaheron.com/_config_dev.yml:
+## Configuration and Production help!
+Config details and more are at jekyll_victoriaheron.com/_config_dev.yml:
 
 ### Using two config files for development
 Th `_config_dev.yml` file is only needed for development. Instead of changing the url

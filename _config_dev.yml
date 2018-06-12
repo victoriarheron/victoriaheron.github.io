@@ -5,7 +5,9 @@
 # Start development with:
 # `$ jekyll serve --config _config.yml,_config_dev.yml --incremental`
 
-# To modify production, run `$ jekyll build` and copy file contents of source repo to the 'victoriaheron.github.io' repo. Contents of destination should represent a similar website to what the contents of the source repo will build in production by Github:
+# To modify production, run `$ jekyll build` from victoriaheron.github.io. It looks like victoriaheron.github_site is a vestigial dev convenvience. Just make changes and push to master to see them live.
+
+# Navigation is in _data/navigation.yml
 
 # For home machine
 # source:      '/Users/jessheiner/workspace/victoriaheron.github.io' # While Github ignores this value, we set it to this repo for clarity
